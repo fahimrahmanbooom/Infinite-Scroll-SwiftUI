@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_Infinate_Scroll_SwiftUIVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_Infinate_Scroll_SwiftUIVersionString[];
+FOUNDATION_EXPORT double Pods_InfiniteScrollSwiftUIVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_InfiniteScrollSwiftUIVersionString[];
 

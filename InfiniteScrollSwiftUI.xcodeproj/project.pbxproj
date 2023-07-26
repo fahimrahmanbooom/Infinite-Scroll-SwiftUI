@@ -7,93 +7,98 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		86C41E35C8C12EAFFB6A8056 /* Pods_Infinate_Scroll_SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 363158544BAB093C4BD1F24D /* Pods_Infinate_Scroll_SwiftUI.framework */; };
-		FF402A422A6F81D4009111CF /* Infinate_Scroll_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF402A412A6F81D4009111CF /* Infinate_Scroll_SwiftUIApp.swift */; };
-		FF402A442A6F81D4009111CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF402A432A6F81D4009111CF /* ContentView.swift */; };
-		FF402A462A6F81D5009111CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF402A452A6F81D5009111CF /* Assets.xcassets */; };
-		FF402A4A2A6F81D5009111CF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF402A492A6F81D5009111CF /* Preview Assets.xcassets */; };
-		FF402A522A6F82CC009111CF /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = FF402A512A6F82CC009111CF /* Alamofire */; };
-		FF402A542A6F82DD009111CF /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF402A532A6F82DD009111CF /* NetworkManager.swift */; };
+		B96D6F4BB6D04B090CC85692 /* Pods_InfiniteScrollSwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77258EA610AB141CF786CDB /* Pods_InfiniteScrollSwiftUI.framework */; };
+		FF18CC7B2A712C0A006BA182 /* InfiniteScrollSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF18CC7A2A712C0A006BA182 /* InfiniteScrollSwiftUIApp.swift */; };
+		FF18CC7D2A712C0A006BA182 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF18CC7C2A712C0A006BA182 /* ContentView.swift */; };
+		FF18CC7F2A712C0B006BA182 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF18CC7E2A712C0B006BA182 /* Assets.xcassets */; };
+		FF18CC832A712C0B006BA182 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF18CC822A712C0B006BA182 /* Preview Assets.xcassets */; };
+		FF18CC8A2A712C41006BA182 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF18CC892A712C41006BA182 /* NetworkManager.swift */; };
+		FF18CC8D2A712C5A006BA182 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = FF18CC8C2A712C5A006BA182 /* Alamofire */; };
+		FF18CC902A712C68006BA182 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = FF18CC8F2A712C68006BA182 /* Kingfisher */; };
+		FF18CC932A712C74006BA182 /* SimpleAFLoader in Frameworks */ = {isa = PBXBuildFile; productRef = FF18CC922A712C74006BA182 /* SimpleAFLoader */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		363158544BAB093C4BD1F24D /* Pods_Infinate_Scroll_SwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Infinate_Scroll_SwiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		51F3C75848383906E8443CDA /* Pods-Infinate-Scroll-SwiftUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Infinate-Scroll-SwiftUI.debug.xcconfig"; path = "Target Support Files/Pods-Infinate-Scroll-SwiftUI/Pods-Infinate-Scroll-SwiftUI.debug.xcconfig"; sourceTree = "<group>"; };
-		D77E24F5A27C191FE5219F1A /* Pods-Infinate-Scroll-SwiftUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Infinate-Scroll-SwiftUI.release.xcconfig"; path = "Target Support Files/Pods-Infinate-Scroll-SwiftUI/Pods-Infinate-Scroll-SwiftUI.release.xcconfig"; sourceTree = "<group>"; };
-		FF402A3E2A6F81D4009111CF /* Infinate-Scroll-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Infinate-Scroll-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF402A412A6F81D4009111CF /* Infinate_Scroll_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Infinate_Scroll_SwiftUIApp.swift; sourceTree = "<group>"; };
-		FF402A432A6F81D4009111CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		FF402A452A6F81D5009111CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FF402A472A6F81D5009111CF /* Infinate_Scroll_SwiftUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Infinate_Scroll_SwiftUI.entitlements; sourceTree = "<group>"; };
-		FF402A492A6F81D5009111CF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		FF402A532A6F82DD009111CF /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		AFF8B83B1C0574CEDC6821DA /* Pods-InfiniteScrollSwiftUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfiniteScrollSwiftUI.debug.xcconfig"; path = "Target Support Files/Pods-InfiniteScrollSwiftUI/Pods-InfiniteScrollSwiftUI.debug.xcconfig"; sourceTree = "<group>"; };
+		B77258EA610AB141CF786CDB /* Pods_InfiniteScrollSwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InfiniteScrollSwiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC080FFE4003BF7DCE55C63A /* Pods-InfiniteScrollSwiftUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfiniteScrollSwiftUI.release.xcconfig"; path = "Target Support Files/Pods-InfiniteScrollSwiftUI/Pods-InfiniteScrollSwiftUI.release.xcconfig"; sourceTree = "<group>"; };
+		FF18CC772A712C0A006BA182 /* InfiniteScrollSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfiniteScrollSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF18CC7A2A712C0A006BA182 /* InfiniteScrollSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniteScrollSwiftUIApp.swift; sourceTree = "<group>"; };
+		FF18CC7C2A712C0A006BA182 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FF18CC7E2A712C0B006BA182 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF18CC802A712C0B006BA182 /* InfiniteScrollSwiftUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = InfiniteScrollSwiftUI.entitlements; sourceTree = "<group>"; };
+		FF18CC822A712C0B006BA182 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FF18CC892A712C41006BA182 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FF402A3B2A6F81D4009111CF /* Frameworks */ = {
+		FF18CC742A712C0A006BA182 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86C41E35C8C12EAFFB6A8056 /* Pods_Infinate_Scroll_SwiftUI.framework in Frameworks */,
-				FF402A522A6F82CC009111CF /* Alamofire in Frameworks */,
+				FF18CC902A712C68006BA182 /* Kingfisher in Frameworks */,
+				FF18CC932A712C74006BA182 /* SimpleAFLoader in Frameworks */,
+				FF18CC8D2A712C5A006BA182 /* Alamofire in Frameworks */,
+				B96D6F4BB6D04B090CC85692 /* Pods_InfiniteScrollSwiftUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		20249BE5078AE2CD877F6AA4 /* Pods */ = {
+		22D890AD34AE04CF01FB478D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				51F3C75848383906E8443CDA /* Pods-Infinate-Scroll-SwiftUI.debug.xcconfig */,
-				D77E24F5A27C191FE5219F1A /* Pods-Infinate-Scroll-SwiftUI.release.xcconfig */,
+				AFF8B83B1C0574CEDC6821DA /* Pods-InfiniteScrollSwiftUI.debug.xcconfig */,
+				DC080FFE4003BF7DCE55C63A /* Pods-InfiniteScrollSwiftUI.release.xcconfig */,
 			);
+			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		39CF90A2F2947361E6A7E7E1 /* Frameworks */ = {
+		D89181BB63EAAE88E2ED4B44 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				363158544BAB093C4BD1F24D /* Pods_Infinate_Scroll_SwiftUI.framework */,
+				B77258EA610AB141CF786CDB /* Pods_InfiniteScrollSwiftUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FF402A352A6F81D4009111CF = {
+		FF18CC6E2A712C0A006BA182 = {
 			isa = PBXGroup;
 			children = (
-				FF402A402A6F81D4009111CF /* Infinate-Scroll-SwiftUI */,
-				FF402A3F2A6F81D4009111CF /* Products */,
-				20249BE5078AE2CD877F6AA4 /* Pods */,
-				39CF90A2F2947361E6A7E7E1 /* Frameworks */,
+				FF18CC792A712C0A006BA182 /* InfiniteScrollSwiftUI */,
+				FF18CC782A712C0A006BA182 /* Products */,
+				22D890AD34AE04CF01FB478D /* Pods */,
+				D89181BB63EAAE88E2ED4B44 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		FF402A3F2A6F81D4009111CF /* Products */ = {
+		FF18CC782A712C0A006BA182 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FF402A3E2A6F81D4009111CF /* Infinate-Scroll-SwiftUI.app */,
+				FF18CC772A712C0A006BA182 /* InfiniteScrollSwiftUI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FF402A402A6F81D4009111CF /* Infinate-Scroll-SwiftUI */ = {
+		FF18CC792A712C0A006BA182 /* InfiniteScrollSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				FF402A412A6F81D4009111CF /* Infinate_Scroll_SwiftUIApp.swift */,
-				FF402A432A6F81D4009111CF /* ContentView.swift */,
-				FF402A532A6F82DD009111CF /* NetworkManager.swift */,
-				FF402A452A6F81D5009111CF /* Assets.xcassets */,
-				FF402A472A6F81D5009111CF /* Infinate_Scroll_SwiftUI.entitlements */,
-				FF402A482A6F81D5009111CF /* Preview Content */,
+				FF18CC7A2A712C0A006BA182 /* InfiniteScrollSwiftUIApp.swift */,
+				FF18CC892A712C41006BA182 /* NetworkManager.swift */,
+				FF18CC7C2A712C0A006BA182 /* ContentView.swift */,
+				FF18CC7E2A712C0B006BA182 /* Assets.xcassets */,
+				FF18CC802A712C0B006BA182 /* InfiniteScrollSwiftUI.entitlements */,
+				FF18CC812A712C0B006BA182 /* Preview Content */,
 			);
-			path = "Infinate-Scroll-SwiftUI";
+			path = InfiniteScrollSwiftUI;
 			sourceTree = "<group>";
 		};
-		FF402A482A6F81D5009111CF /* Preview Content */ = {
+		FF18CC812A712C0B006BA182 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				FF402A492A6F81D5009111CF /* Preview Assets.xcassets */,
+				FF18CC822A712C0B006BA182 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -101,44 +106,46 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FF402A3D2A6F81D4009111CF /* Infinate-Scroll-SwiftUI */ = {
+		FF18CC762A712C0A006BA182 /* InfiniteScrollSwiftUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FF402A4D2A6F81D5009111CF /* Build configuration list for PBXNativeTarget "Infinate-Scroll-SwiftUI" */;
+			buildConfigurationList = FF18CC862A712C0B006BA182 /* Build configuration list for PBXNativeTarget "InfiniteScrollSwiftUI" */;
 			buildPhases = (
-				8A9979A1AE2A3BE3B8C6C83B /* [CP] Check Pods Manifest.lock */,
-				FF402A3A2A6F81D4009111CF /* Sources */,
-				FF402A3B2A6F81D4009111CF /* Frameworks */,
-				FF402A3C2A6F81D4009111CF /* Resources */,
-				11C358A5D0F614AADF501494 /* [CP] Embed Pods Frameworks */,
+				1D8CC111047B0F48E2D90E50 /* [CP] Check Pods Manifest.lock */,
+				FF18CC732A712C0A006BA182 /* Sources */,
+				FF18CC742A712C0A006BA182 /* Frameworks */,
+				FF18CC752A712C0A006BA182 /* Resources */,
+				7BDFEB0069C8A90465AAEA09 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Infinate-Scroll-SwiftUI";
+			name = InfiniteScrollSwiftUI;
 			packageProductDependencies = (
-				FF402A512A6F82CC009111CF /* Alamofire */,
+				FF18CC8C2A712C5A006BA182 /* Alamofire */,
+				FF18CC8F2A712C68006BA182 /* Kingfisher */,
+				FF18CC922A712C74006BA182 /* SimpleAFLoader */,
 			);
-			productName = "Infinate-Scroll-SwiftUI";
-			productReference = FF402A3E2A6F81D4009111CF /* Infinate-Scroll-SwiftUI.app */;
+			productName = InfiniteScrollSwiftUI;
+			productReference = FF18CC772A712C0A006BA182 /* InfiniteScrollSwiftUI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FF402A362A6F81D4009111CF /* Project object */ = {
+		FF18CC6F2A712C0A006BA182 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					FF402A3D2A6F81D4009111CF = {
+					FF18CC762A712C0A006BA182 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
 			};
-			buildConfigurationList = FF402A392A6F81D4009111CF /* Build configuration list for PBXProject "Infinate-Scroll-SwiftUI" */;
+			buildConfigurationList = FF18CC722A712C0A006BA182 /* Build configuration list for PBXProject "InfiniteScrollSwiftUI" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -146,50 +153,35 @@
 				en,
 				Base,
 			);
-			mainGroup = FF402A352A6F81D4009111CF;
+			mainGroup = FF18CC6E2A712C0A006BA182;
 			packageReferences = (
-				FF402A502A6F82CC009111CF /* XCRemoteSwiftPackageReference "Alamofire" */,
+				FF18CC8B2A712C5A006BA182 /* XCRemoteSwiftPackageReference "Alamofire.git" */,
+				FF18CC8E2A712C68006BA182 /* XCRemoteSwiftPackageReference "Kingfisher.git" */,
+				FF18CC912A712C74006BA182 /* XCRemoteSwiftPackageReference "SimpleAFLoader.git" */,
 			);
-			productRefGroup = FF402A3F2A6F81D4009111CF /* Products */;
+			productRefGroup = FF18CC782A712C0A006BA182 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FF402A3D2A6F81D4009111CF /* Infinate-Scroll-SwiftUI */,
+				FF18CC762A712C0A006BA182 /* InfiniteScrollSwiftUI */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FF402A3C2A6F81D4009111CF /* Resources */ = {
+		FF18CC752A712C0A006BA182 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF402A4A2A6F81D5009111CF /* Preview Assets.xcassets in Resources */,
-				FF402A462A6F81D5009111CF /* Assets.xcassets in Resources */,
+				FF18CC832A712C0B006BA182 /* Preview Assets.xcassets in Resources */,
+				FF18CC7F2A712C0B006BA182 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		11C358A5D0F614AADF501494 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Infinate-Scroll-SwiftUI/Pods-Infinate-Scroll-SwiftUI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Infinate-Scroll-SwiftUI/Pods-Infinate-Scroll-SwiftUI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Infinate-Scroll-SwiftUI/Pods-Infinate-Scroll-SwiftUI-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8A9979A1AE2A3BE3B8C6C83B /* [CP] Check Pods Manifest.lock */ = {
+		1D8CC111047B0F48E2D90E50 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -204,30 +196,47 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Infinate-Scroll-SwiftUI-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-InfiniteScrollSwiftUI-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		7BDFEB0069C8A90465AAEA09 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InfiniteScrollSwiftUI/Pods-InfiniteScrollSwiftUI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InfiniteScrollSwiftUI/Pods-InfiniteScrollSwiftUI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InfiniteScrollSwiftUI/Pods-InfiniteScrollSwiftUI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FF402A3A2A6F81D4009111CF /* Sources */ = {
+		FF18CC732A712C0A006BA182 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF402A542A6F82DD009111CF /* NetworkManager.swift in Sources */,
-				FF402A442A6F81D4009111CF /* ContentView.swift in Sources */,
-				FF402A422A6F81D4009111CF /* Infinate_Scroll_SwiftUIApp.swift in Sources */,
+				FF18CC8A2A712C41006BA182 /* NetworkManager.swift in Sources */,
+				FF18CC7D2A712C0A006BA182 /* ContentView.swift in Sources */,
+				FF18CC7B2A712C0A006BA182 /* InfiniteScrollSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		FF402A4B2A6F81D5009111CF /* Debug */ = {
+		FF18CC842A712C0B006BA182 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -285,7 +294,7 @@
 			};
 			name = Debug;
 		};
-		FF402A4C2A6F81D5009111CF /* Release */ = {
+		FF18CC852A712C0B006BA182 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -336,16 +345,16 @@
 			};
 			name = Release;
 		};
-		FF402A4E2A6F81D5009111CF /* Debug */ = {
+		FF18CC872A712C0B006BA182 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 51F3C75848383906E8443CDA /* Pods-Infinate-Scroll-SwiftUI.debug.xcconfig */;
+			baseConfigurationReference = AFF8B83B1C0574CEDC6821DA /* Pods-InfiniteScrollSwiftUI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Infinate-Scroll-SwiftUI/Infinate_Scroll_SwiftUI.entitlements";
+				CODE_SIGN_ENTITLEMENTS = InfiniteScrollSwiftUI/InfiniteScrollSwiftUI.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Infinate-Scroll-SwiftUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"InfiniteScrollSwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = 8GMKQQ8C7H;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -360,12 +369,12 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.fahim.Infinate-Scroll-SwiftUI";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fahim.InfiniteScrollSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -375,16 +384,16 @@
 			};
 			name = Debug;
 		};
-		FF402A4F2A6F81D5009111CF /* Release */ = {
+		FF18CC882A712C0B006BA182 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D77E24F5A27C191FE5219F1A /* Pods-Infinate-Scroll-SwiftUI.release.xcconfig */;
+			baseConfigurationReference = DC080FFE4003BF7DCE55C63A /* Pods-InfiniteScrollSwiftUI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Infinate-Scroll-SwiftUI/Infinate_Scroll_SwiftUI.entitlements";
+				CODE_SIGN_ENTITLEMENTS = InfiniteScrollSwiftUI/InfiniteScrollSwiftUI.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Infinate-Scroll-SwiftUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"InfiniteScrollSwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = 8GMKQQ8C7H;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -399,12 +408,12 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.fahim.Infinate-Scroll-SwiftUI";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fahim.InfiniteScrollSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -417,20 +426,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FF402A392A6F81D4009111CF /* Build configuration list for PBXProject "Infinate-Scroll-SwiftUI" */ = {
+		FF18CC722A712C0A006BA182 /* Build configuration list for PBXProject "InfiniteScrollSwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FF402A4B2A6F81D5009111CF /* Debug */,
-				FF402A4C2A6F81D5009111CF /* Release */,
+				FF18CC842A712C0B006BA182 /* Debug */,
+				FF18CC852A712C0B006BA182 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FF402A4D2A6F81D5009111CF /* Build configuration list for PBXNativeTarget "Infinate-Scroll-SwiftUI" */ = {
+		FF18CC862A712C0B006BA182 /* Build configuration list for PBXNativeTarget "InfiniteScrollSwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FF402A4E2A6F81D5009111CF /* Debug */,
-				FF402A4F2A6F81D5009111CF /* Release */,
+				FF18CC872A712C0B006BA182 /* Debug */,
+				FF18CC882A712C0B006BA182 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -438,7 +447,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		FF402A502A6F82CC009111CF /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+		FF18CC8B2A712C5A006BA182 /* XCRemoteSwiftPackageReference "Alamofire.git" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
 			requirement = {
@@ -446,15 +455,41 @@
 				minimumVersion = 5.0.0;
 			};
 		};
+		FF18CC8E2A712C68006BA182 /* XCRemoteSwiftPackageReference "Kingfisher.git" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		FF18CC912A712C74006BA182 /* XCRemoteSwiftPackageReference "SimpleAFLoader.git" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/fahimrahmanbooom/SimpleAFLoader.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		FF402A512A6F82CC009111CF /* Alamofire */ = {
+		FF18CC8C2A712C5A006BA182 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = FF402A502A6F82CC009111CF /* XCRemoteSwiftPackageReference "Alamofire" */;
+			package = FF18CC8B2A712C5A006BA182 /* XCRemoteSwiftPackageReference "Alamofire.git" */;
 			productName = Alamofire;
+		};
+		FF18CC8F2A712C68006BA182 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF18CC8E2A712C68006BA182 /* XCRemoteSwiftPackageReference "Kingfisher.git" */;
+			productName = Kingfisher;
+		};
+		FF18CC922A712C74006BA182 /* SimpleAFLoader */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF18CC912A712C74006BA182 /* XCRemoteSwiftPackageReference "SimpleAFLoader.git" */;
+			productName = SimpleAFLoader;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = FF402A362A6F81D4009111CF /* Project object */;
+	rootObject = FF18CC6F2A712C0A006BA182 /* Project object */;
 }

@@ -1,8 +1,8 @@
 //
 //  NetworkManager.swift
-//  Infinate-Scroll-SwiftUI
+//  InfiniteScrollSwiftUI
 //
-//  Created by Fahim Rahman on 2023-07-25.
+//  Created by Fahim Rahman on 2023-07-26.
 //
 
 import Foundation
@@ -23,3 +23,4 @@ class NetworkManager {
         }
     }
 }
+

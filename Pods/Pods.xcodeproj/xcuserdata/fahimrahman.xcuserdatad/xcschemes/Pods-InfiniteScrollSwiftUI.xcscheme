@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1430"
+   LastUpgradeVersion = "1300"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CF905847FBB0B1D687585AF6266A98CA"
-               BuildableName = "Pods_Infinate_Scroll_SwiftUI.framework"
-               BlueprintName = "Pods-Infinate-Scroll-SwiftUI"
+               BlueprintIdentifier = "2F69E5DA1225A49381F590168F68AC6D"
+               BuildableName = "Pods_InfiniteScrollSwiftUI.framework"
+               BlueprintName = "Pods-InfiniteScrollSwiftUI"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
