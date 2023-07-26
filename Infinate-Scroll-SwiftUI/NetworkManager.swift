@@ -16,14 +16,7 @@ class NetworkManager {
         AF.request(url, method: method, parameters: parameters, headers: headers).response { response in
             switch response.result {
             case .success(let data):
-                do {
-                    if let jsonData = data {
-                        let json = try JSONSerialization.jsonObject(with: jsonData, options: [])
-                        completion(.success(json))
-                    }
-                } catch {
-                    completion(.failure(error))
-                }
+                completion(.success(data as Any))
             case .failure(let error):
                 completion(.failure(error))
             }
