@@ -52,7 +52,6 @@
 				AFF8B83B1C0574CEDC6821DA /* Pods-InfiniteScrollSwiftUI.debug.xcconfig */,
 				DC080FFE4003BF7DCE55C63A /* Pods-InfiniteScrollSwiftUI.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -155,9 +154,9 @@
 			);
 			mainGroup = FF18CC6E2A712C0A006BA182;
 			packageReferences = (
-				FF18CC8B2A712C5A006BA182 /* XCRemoteSwiftPackageReference "Alamofire.git" */,
-				FF18CC8E2A712C68006BA182 /* XCRemoteSwiftPackageReference "Kingfisher.git" */,
-				FF18CC912A712C74006BA182 /* XCRemoteSwiftPackageReference "SimpleAFLoader.git" */,
+				FF18CC8B2A712C5A006BA182 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				FF18CC8E2A712C68006BA182 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				FF18CC912A712C74006BA182 /* XCRemoteSwiftPackageReference "SimpleAFLoader" */,
 			);
 			productRefGroup = FF18CC782A712C0A006BA182 /* Products */;
 			projectDirPath = "";
@@ -447,7 +446,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		FF18CC8B2A712C5A006BA182 /* XCRemoteSwiftPackageReference "Alamofire.git" */ = {
+		FF18CC8B2A712C5A006BA182 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
 			requirement = {
@@ -455,7 +454,7 @@
 				minimumVersion = 5.0.0;
 			};
 		};
-		FF18CC8E2A712C68006BA182 /* XCRemoteSwiftPackageReference "Kingfisher.git" */ = {
+		FF18CC8E2A712C68006BA182 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
 			requirement = {
@@ -463,7 +462,7 @@
 				minimumVersion = 7.0.0;
 			};
 		};
-		FF18CC912A712C74006BA182 /* XCRemoteSwiftPackageReference "SimpleAFLoader.git" */ = {
+		FF18CC912A712C74006BA182 /* XCRemoteSwiftPackageReference "SimpleAFLoader" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/fahimrahmanbooom/SimpleAFLoader.git";
 			requirement = {
@@ -476,17 +475,17 @@
 /* Begin XCSwiftPackageProductDependency section */
 		FF18CC8C2A712C5A006BA182 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = FF18CC8B2A712C5A006BA182 /* XCRemoteSwiftPackageReference "Alamofire.git" */;
+			package = FF18CC8B2A712C5A006BA182 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
 		};
 		FF18CC8F2A712C68006BA182 /* Kingfisher */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = FF18CC8E2A712C68006BA182 /* XCRemoteSwiftPackageReference "Kingfisher.git" */;
+			package = FF18CC8E2A712C68006BA182 /* XCRemoteSwiftPackageReference "Kingfisher" */;
 			productName = Kingfisher;
 		};
 		FF18CC922A712C74006BA182 /* SimpleAFLoader */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = FF18CC912A712C74006BA182 /* XCRemoteSwiftPackageReference "SimpleAFLoader.git" */;
+			package = FF18CC912A712C74006BA182 /* XCRemoteSwiftPackageReference "SimpleAFLoader" */;
 			productName = SimpleAFLoader;
 		};
 /* End XCSwiftPackageProductDependency section */

@@ -15,7 +15,7 @@ struct ContentView: View {
     @State private var jsonData = JSON()
     @State private var imageURLArray = [String]()
     @State private var currentPage = 0
-    @State private var contentLimit = 50
+    @State private var contentLimit = 30
     @State private var isLoadingMoreData = false
     @State private var isLoaderVisible: Bool = false
     
@@ -26,7 +26,6 @@ struct ContentView: View {
                     KFImage(URL(string: self.imageURLArray[i]))
                         .diskCacheExpiration(.days(1))
                         .diskCacheAccessExtending(.expirationTime(.days(1)))
-                        .loadDiskFileSynchronously()
                         .resizable()
                         .frame(width: UIScreen.main.bounds.size.width - 20, height: UIScreen.main.bounds.size.width / 1.9, alignment: .center)
                         .cornerRadius(10)
@@ -48,8 +47,10 @@ struct ContentView: View {
             NetworkManager.shared.makeGenericAPIRequest(url: "https://picsum.photos/v2/list?page=\(self.currentPage)&limit=\(contentLimit)", method: .get) { result in
                 do {
                     self.jsonData = JSON(try result.get())
-                    for i in 0..<(self.jsonData.array?.count ?? 0) {
-                        self.imageURLArray.append(self.jsonData[i].download_url.string ?? "")
+                    DispatchQueue.main.async {
+                        for i in 0..<(self.jsonData.array?.count ?? 0) {
+                            self.imageURLArray.append(self.jsonData[i].download_url.string ?? "")
+                        }
                     }
                     self.isLoaderVisible.toggle()
                 }
@@ -69,8 +70,10 @@ struct ContentView: View {
         NetworkManager.shared.makeGenericAPIRequest(url: "https://picsum.photos/v2/list?page=\(self.currentPage)&limit=\(contentLimit)", method: .get) { result in
             do {
                 self.jsonData = JSON(try result.get())
-                for i in 0..<(self.jsonData.array?.count ?? 0) {
-                    self.imageURLArray.append(self.jsonData[i].download_url.string ?? "")
+                DispatchQueue.main.async {
+                    for i in 0..<(self.jsonData.array?.count ?? 0) {
+                        self.imageURLArray.append(self.jsonData[i].download_url.string ?? "")
+                    }
                 }
             } catch {
                 print(error.localizedDescription)
